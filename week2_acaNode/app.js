@@ -14,6 +14,10 @@ If anything else is input that cannot be matched, output Syntax Error
 
 const readLine = require('readline-sync')
 
+const actions = ['Calculator', 'Tru or False', 'Define Variable']
+let whatToDo = readLine.keyInSelect(actions, 'What would you like to do?')
+
+
 // list of operations the user can select to be performed
 let listOfOperations = ['Addition', 'Subtraction', 'Multiplication', 'Division']
 // user selects operation to perform
