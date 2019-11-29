@@ -1,4 +1,4 @@
-const readLine = require('readline-sync')
+const readLine = require("readline-sync");
 
 const mathematics = () => {
   // list of operations the user can select to be performed
@@ -31,8 +31,6 @@ const mathematics = () => {
       return `${x} * ${y} = ${x * y}`;
     } else if (math === 3) {
       return `${x} / ${y} = ${x / y}`;
-    } else if (math === 0) {
-      return "Operation cancelled";
     }
   };
 
